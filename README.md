@@ -11,7 +11,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 2) List the objectives and their key results are done.
 3) Collapsing is partially done
 
-#Things todo
+##Things todo
 1) Collapse toggle
 2) Showing details on click of each Objective
 
@@ -20,5 +20,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 2) Objectives component.
 3) KeyResults Component.
 
-#styles
+##styles
 Used SCSS for the styling of components.....
