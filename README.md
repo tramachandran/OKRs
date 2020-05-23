@@ -14,3 +14,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 #Things todo
 1) Collapse toggle
 2) Showing details on click of each Objective
+
+## Components
+1) App Component
+2) Objectives component.
+3) KeyResults Component.
+
+#styles
+Used SCSS for the styling of components.....
