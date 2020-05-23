@@ -1,0 +1,12 @@
+<div class="objectives">
+    <ol>
+        <li *ngFor="let objective of objectives; let index = index;">
+            <div class="title">{{ objective.title}}
+                <i (click)="toggleCollapse($event)" class="fa fa-sort-desc" aria-hidden="true"></i>
+            </div>
+            <keyresults [keyResults]="getKeyResults(objective)"></keyresults>
+        </li>
+    </ol>
+</div>
+
+

@@ -1,0 +1,30 @@
+div.objectives {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    ol {
+            margin: 0 1vw;
+        li {
+            border: 1px solid grey;
+            margin: 2vw;
+            padding: 0;
+            .title {
+                background-color: black;
+                color: white;
+                height: 30px;
+                line-height: 30px;
+                padding-left: 1rem;
+                position: relative;
+                i {
+                    position: absolute;
+                    right: 0.25rem;
+                }                
+            }
+            &.collapse {
+                height: 0px;
+                padding-bottom: 1rem;
+                color: transparent;
+            }
+        }
+    }
+}

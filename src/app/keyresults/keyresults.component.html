@@ -1,0 +1,12 @@
+<ng-container *ngIf="keyResults.length > 0; else noDataTemp">
+    <div class="key-results">
+        <ol type="a">
+            <li *ngFor="let keyResult of keyResults; let index = index;">
+                <div>{{keyResult.title}}</div>
+            </li>
+        </ol>
+    </div>
+</ng-container>
+<ng-template #noDataTemp>
+    <div class="no-data"> No key results available.</div>
+</ng-template>
